@@ -28,8 +28,8 @@ while max_tries > 0:
     guess_word = input('Write guess here: ').lower()
     
         # --- test ---
-    target_word = 'igloo'
-    target_list = list(target_word)
+    #target_word = 'igloo'
+    #target_list = list(target_word)
     
     if guess_word not in valid_words_list:
         max_tries = max_tries - 1
